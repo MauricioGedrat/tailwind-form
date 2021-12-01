@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import Logo from './Logo'
 import Link from 'next/link'
@@ -19,5 +20,23 @@ const Header = () => {
         </div>
     )
 }
+=======
+import React from "react";
+import Logo from "./Logo";
 
-export default Header
+const Header = () => {
+  return (
+    <div className="bg-header py-8">
+      <div className="ml-32">
+        <Logo />
+      </div>
+>>>>>>> 58c5defb1eabb4aaf3d40067a8acde12e3163048
+
+      <span className="text-gray-800 border-transparent border-b-2 hover:border-gray-600 hover:text-gray-800 px-3 py-2 text-sm font-medium uppercase">
+        Home
+      </span>
+    </div>
+  );
+};
+
+export default Header;
